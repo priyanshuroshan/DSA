@@ -13,6 +13,6 @@ public:
             
             p2i[pattern[i]] = w2i[word] = i+1; //Otherwise map to both to a value i+1
         }
-        return i==n; //both the lengths should be equal
+        return i==n; 
     }
 };
